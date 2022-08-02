@@ -116,14 +116,14 @@ Config.SetjobN8 = 'vigneron'
 Config.SetjobN9 = 'journalist'
 
 Config.GradeMax1 = '3'
-Config.GradeMax1 = '3'
-Config.GradeMax1 = '3'
-Config.GradeMax1 = '4'
-Config.GradeMax1 = '7'
-Config.GradeMax1 = '4'
-Config.GradeMax1 = '3'
-Config.GradeMax1 = '3'
-Config.GradeMax1 = '4'
+Config.GradeMax2 = '3'
+Config.GradeMax3 = '3'
+Config.GradeMax4 = '4'
+Config.GradeMax5 = '7'
+Config.GradeMax6 = '4'
+Config.GradeMax7 = '3'
+Config.GradeMax8 = '3'
+Config.GradeMax9 = '4'
 
 -----------------------------------------------------------------Jeff.#8017--------------------------------------------------------------------
 
