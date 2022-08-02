@@ -24,7 +24,7 @@ A mettre : `es_extended`/`server`/`classes`/`player.lua` :
 
 ```
 function self.showNotification(msg)    
-TriggerClientEvent('esx:showNotification', self.source, msg)
+    TriggerClientEvent('esx:showNotification', self.source, msg)
 end
 ```
 
