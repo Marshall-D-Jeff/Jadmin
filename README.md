@@ -18,13 +18,6 @@ By Jeff.#8017 for 5-Dev
 - Des options pour l'utilitaire, les véhicules ou encore les armes
 - un menu report complet et simple d'utilisation
 
-# Installation
-
-
-1. Installer la ressource et ajouter à votre répertoire de ressources
-2. Ajouter `ensure Jadmin` dans votre `server.cfg`
-3. Vérifier les ressources nécessaire au bon fonctionnement ci-dessous
-
 # Notif
 
 A mettre : `es_extended`/`server`/`classes`/`player.lua` :
@@ -34,6 +27,13 @@ function self.showNotification(msg)
 TriggerClientEvent('esx:showNotification', self.source, msg)
 end
 ```
+
+# Installation
+
+
+1. Installer la ressource et ajouter à votre répertoire de ressources
+2. Ajouter `ensure Jadmin` dans votre `server.cfg`
+3. Vérifier les ressources nécessaire au bon fonctionnement ci-dessous
 
 
 # Requirements
