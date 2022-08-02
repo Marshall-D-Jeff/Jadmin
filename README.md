@@ -39,11 +39,11 @@ end
 # Requirements
 
 - ESX
-- skinchanger
-- esx_skin
-- esx_jail
-- es_admin2
-- okokNotify
+- [skinchanger](https://github.com/StockholmCityRP/skinchanger)
+- [esx_skin](https://github.com/StockholmCityRP/esx_skin)
+- [esx_jail](https://github.com/esx-community/esx_jail)
+- [es_admin2](https://github.com/PrintedoX/es_admin2)
+- [okokNotify](https://github.com/Filipe0071/okokNotify)
 
 # Features
 
