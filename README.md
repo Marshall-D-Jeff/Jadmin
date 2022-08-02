@@ -43,6 +43,7 @@ end
 - esx_skin
 - esx_jail
 - es_admin2
+- okokNotify
 
 # Features
 
