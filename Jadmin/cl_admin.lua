@@ -2795,13 +2795,6 @@ function openStaffMenu()
 					local job2 = ESX.PlayerData.job2.name
 
 					RageUI.Info("~g~5-Dev", {"Nom Steam →", "Métier →", "Gang →", ""}, {""..reportSelected.namePlayer.."", ""..job.."", ""..job2.."", "" })
-
-					RageUI.ButtonWithStyle("Regarder", "Permet de spect le joueur", {RightLabel = "→"},true, function(Hovered, Active, Selected)
-						if Selected then
-							local playerId = GetPlayerFromServerId(IdSelected)
-							SpectatePlayer(GetPlayerPed(playerId),playerId,GetPlayerName(playerId))
-						end
-					end)
 	
 					RageUI.Separator(""..Config.Colors.."↓ ~s~Actions sur le report "..Config.Colors.."↓")
 	
