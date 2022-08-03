@@ -84,36 +84,9 @@ Citizen.CreateThread(function()
                 local accounts = 'cash'
                 local cords = GetEntityCoords(ped)
                 if #(cords-currentCoords) < Config.DrawDistance then
-                    if owner then
-                        draw3DText(cords, '[ID : ~b~' .. GetPlayerServerId(v)..'~w~] \n~w~[Nom : ~y~'..GetPlayerName(v)..'~w~]', {
-                            size = Config.TextSize
-                        })
-                    end
-                    if superadmin then
-                        draw3DText(cords, '[ID : ~b~' .. GetPlayerServerId(v)..'~w~] \n~w~[Nom : ~r~'..GetPlayerName(v)..'~w~]', {
-                            size = Config.TextSize
-                        })
-                    end
-                    if _dev then
-                        draw3DText(cords, '[ID : ~b~' .. GetPlayerServerId(v)..'~w~] \n~w~[Nom : ~p~'..GetPlayerName(v)..'~w~]', {
-                            size = Config.TextSize
-                        })
-                    end
-                    if admin then
-                        draw3DText(cords, '[ID : ~b~' .. GetPlayerServerId(v)..'~w~] \n~w~[Nom : ~o~'..GetPlayerName(v)..'~w~]', {
-                            size = Config.TextSize
-                        })
-                    end
-                    if mod then
-                        draw3DText(cords, '[ID : ~b~' .. GetPlayerServerId(v)..'~w~] \n~w~[Nom : ~g~'..GetPlayerName(v)..'~w~]', {
-                            size = Config.TextSize
-                        })
-                    end
-                    if user then
-                        draw3DText(cords, '[ID : ~b~' .. GetPlayerServerId(v)..'~w~] \n~w~[Nom : ~b~'..GetPlayerName(v)..'~w~]', {
-                            size = Config.TextSize
-                        })
-                    end
+                    draw3DText(cords, '[ID : '..Config.Colors..'' .. GetPlayerServerId(v)..'~w~] \n~w~[Nom : '..Config.Colors..''..GetPlayerName(v)..'~w~]', {
+                        size = Config.TextSize
+                    })
                 end
             end
         end
