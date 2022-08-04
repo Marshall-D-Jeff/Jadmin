@@ -2594,11 +2594,6 @@ function openStaffMenu()
 					RageUI.Separator("["..Config.Colors.."".. GetPlayerServerId(PlayerId()) .."~s~] "   ..GetPlayerName(GetPlayerFromServerId(IdSelected)))
 					RageUI.Separator("")
 
-					local job = ESX.PlayerData.job.name
-					local job2 = ESX.PlayerData.job2.name
-
-					RageUI.Info("~g~5-Dev", {"Nom Steam →", "Métier →", "Gang →", ""}, {""..GetPlayerName(GetPlayerFromServerId(IdSelected)).."", ""..job.."", ""..job2.."", "" })
-
 					RageUI.ButtonWithStyle("Actions", "Actions disponibles sur le joueur", { RightLabel = "→→→" },true, function()
 					end, RMenu:Get('menu', 'action'))
 
@@ -2791,11 +2786,6 @@ function openStaffMenu()
 						end
 					end)
 
-					local job = ESX.PlayerData.job.name
-					local job2 = ESX.PlayerData.job2.name
-
-					RageUI.Info("~g~5-Dev", {"Nom Steam →", "Métier →", "Gang →", ""}, {""..reportSelected.namePlayer.."", ""..job.."", ""..job2.."", "" })
-	
 					RageUI.Separator(""..Config.Colors.."↓ ~s~Actions sur le report "..Config.Colors.."↓")
 	
 					RageUI.ButtonWithStyle("Cloturer ce report", nil, {RightLabel = "→"},true, function(Hovered, Active, Selected)
